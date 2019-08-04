@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.Scanner;
-class GFG 
+public class GFG 
 { 
 	
 	// utility function for digit sum 
