@@ -1,13 +1,13 @@
 import java.io.*;
 import java.util.Scanner;
-class Solution
+public class functionmistake
 {
 	static int gcd(int arr[],int l,int r)
 	{
 		int k=arr[l];
 		int f=arr[r];
 		int gcd=1;
-		for(int i=0;i<=k&& i<=f;i++)
+		for(int i=1;i<=k&& i<=f;i++)
 		{
 			if(k%i==0&&f%i==0)
 			gcd=i;
